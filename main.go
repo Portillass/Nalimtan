@@ -16,9 +16,9 @@ type album struct {
 
 // In-memory data (temporary database)
 var albums = []album{
-	{ID: "1", Title: "Blue Train", Artist: "John Coltrane", Price: 56.99},
-	{ID: "2", Title: "Jeru", Artist: "Gerry Mulligan", Price: 17.99},
-	{ID: "3", Title: "Sarah Vaughan and Clifford Brown", Artist: "Sarah Vaughan", Price: 39.99},
+	{ID: "1", Title: "Blue Train", Artist: "Rell", Price: 56.99},
+	{ID: "2", Title: "Jeru", Artist: "portillas", Price: 17.99},
+	{ID: "3", Title: "lol found hahh", Artist: "Sarah Vaughan", Price: 39.99},
 }
 
 func main() {
