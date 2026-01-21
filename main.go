@@ -65,7 +65,7 @@ func createAlbum(c *gin.Context) {
 	// Validation
 	if newAlbum.ID == "" || newAlbum.Title == "" || newAlbum.Artist == "" || newAlbum.Price <= 0 {
 		c.JSON(http.StatusBadRequest, gin.H{
-			"error": "all fields are required and price must be greater than 0",
+			"error": "all fields are required and price must be greater than 0s",
 		})
 		return
 	}
