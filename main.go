@@ -119,4 +119,6 @@ func deleteAlbum(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusNotFound, gin.H{"message": "album not found"})
+	c.JSON()
 }
+
